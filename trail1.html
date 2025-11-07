@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>My Profile Links</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    background: linear-gradient(135deg, #000000, #764ba2);
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+    padding: 40px 20px;
+    color: #fff;
+  }
+  .container {
+    background: rgba(255 255 255 / 0.1);
+    border-radius: 16px;
+    padding: 40px 30px 50px;
+    max-width: 400px;
+    width: 100%;
+    box-shadow: 0 8px 32px rgba(0,0,0,0.25);
+    text-align: center;
+    backdrop-filter: blur(8px);
+  }
+  .name {
+    font-weight: 600;
+    font-size: 1.8rem;
+    margin-bottom: 16px;
+    text-shadow: 1px 1px 4px rgba(0,0,0,0.5);
+  }
+  .description {
+    font-weight: 400;
+    font-size: 1rem;
+    color: #e0d9ff;
+    margin-bottom: 32px;
+    text-shadow: 0 1px 3px rgba(0,0,0,0.4);
+  }
+  .links {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+  }
+  .link-button {
+    background: rgba(255 255 255 / 0.15);
+    border: none;
+    border-radius: 12px;
+    padding: 14px 20px;
+    font-size: 1.05rem;
+    font-weight: 600;
+    color: #fff;
+    text-decoration: none;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+    transition: background 0.3s ease, transform 0.2s ease;
+    cursor: pointer;
+  }
+  .link-button:hover,
+  .link-button:focus {
+    background: #ffe066;
+    color: #4b3e00;
+    transform: scale(1.05);
+    outline: none;
+  }
+  .footer {
+    font-size: 0.8rem;
+    color: #cdbaff;
+    margin-top: 32px;
+  }
+  @media (max-width: 480px) {
+    body {
+      padding: 30px 10px;
+    }
+    .container {
+      padding: 30px 20px 40px;
+      max-width: 100%;
+      border-radius: 12px;
+    }
+  }
+</style>
+</head>
+<body>
+  <div class="container" role="main">
+    <h1 class="name" tabindex="0">Harshit</h1>
+    <p class="description" tabindex="0">Here you get all platforms which i holded.</p>
+    <nav class="links" aria-label="Profile links">
+     
+      <a href="https://www.instagram.com/harshit70431" target="_blank" rel="noopener noreferrer" class="link-button">Instagram 2</a>
+      <a href="https://www.instagram.com/harsh.it7042" target="_blank" rel="noopener noreferrer" class="link-button">Instagram</a>
+      <a href="https://www.roblox.com/users/8292106744/profile#" target="_blank" rel="noopener noreferrer" class="link-button">Roblox</a>
+      <a href="https://youtube.com/@HarshitYT03" target="_blank" rel="noopener noreferrer" class="link-button">YouTube</a>
+      <a href="https://t.me/u514484" target="_blank" rel="noopener noreferrer" class="link-button">Telegram</a>
+      
+      <a href="https://x.com/CaptainDiamondM?t=r1epQvdIEKs59l0AVtnz3w" target="_blank" rel="noopener noreferrer" class="link-button">Twitter</a>
+      
+      <a href="https://www.snapchat.com/add/u514484" target="_blank" rel="noopener noreferrer" class="link-button">Snapchat</a>
+      
+    </nav>
+    <div class="footer" tabindex="0">Share this link to connect with me on all platforms!</div>
+  </div>
+</body>
+</html>
+
